@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+asyncpg
+sqlalchemy
+boto3
+aiokafka
+pydantic
+alembic
+python-multipart
+boto3
