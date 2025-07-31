@@ -7,7 +7,7 @@ from datetime import datetime
 from app.schema.schemas import FeedCreateSchema
 from app.utils.s3_utils import upload_file_to_s3
 router = APIRouter()
-
+#sample route to get user feed
 @router.get("/{user_id}")
 async def user_feed(user_id: str, db: AsyncSession = Depends(get_db)):
     return await get_feed(user_id, db)
